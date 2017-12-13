@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2E62C21FCDADD3007365B4 /* cascadeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E62C11FCDADD3007365B4 /* cascadeImageViewController.swift */; };
+		EA48005B1FC2DFDC00DD8AA7 /* cascadeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA48005A1FC2DFDC00DD8AA7 /* cascadeImage.swift */; };
+		EA74FDBF1FD19B7D004494D6 /* flickrApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA74FDBE1FD19B7D004494D6 /* flickrApi.swift */; };
 		EAA872D81FBA0E6A00493B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA872D71FBA0E6A00493B6D /* AppDelegate.swift */; };
 		EAA872DA1FBA0E6A00493B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA872D91FBA0E6A00493B6D /* ViewController.swift */; };
 		EAA872DD1FBA0E6A00493B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA872DB1FBA0E6A00493B6D /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 		EAA872E51FBA0E6A00493B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA872E31FBA0E6A00493B6D /* LaunchScreen.storyboard */; };
 		EAA872F01FBA0E6B00493B6D /* Cascade2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA872EF1FBA0E6B00493B6D /* Cascade2Tests.swift */; };
 		EAA872FB1FBA0E6B00493B6D /* Cascade2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA872FA1FBA0E6B00493B6D /* Cascade2UITests.swift */; };
+		EAA873091FBB62E600493B6D /* cascadeUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA873081FBB62E600493B6D /* cascadeUiView.swift */; };
+		EABA6FC11FD1BBB900C3E2BB /* UIImageUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABA6FC01FD1BBB900C3E2BB /* UIImageUtils.swift */; };
+		EADF189E1FD2068D004ECA81 /* restAPImanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADF189D1FD2068D004ECA81 /* restAPImanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA2E62C11FCDADD3007365B4 /* cascadeImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cascadeImageViewController.swift; sourceTree = "<group>"; };
+		EA48005A1FC2DFDC00DD8AA7 /* cascadeImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cascadeImage.swift; sourceTree = "<group>"; };
+		EA74FDBE1FD19B7D004494D6 /* flickrApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flickrApi.swift; sourceTree = "<group>"; };
 		EAA872D41FBA0E6A00493B6D /* Cascade2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cascade2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA872D71FBA0E6A00493B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA872D91FBA0E6A00493B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		EAA872F61FBA0E6B00493B6D /* Cascade2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cascade2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA872FA1FBA0E6B00493B6D /* Cascade2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cascade2UITests.swift; sourceTree = "<group>"; };
 		EAA872FC1FBA0E6B00493B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA873081FBB62E600493B6D /* cascadeUiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cascadeUiView.swift; sourceTree = "<group>"; };
+		EABA6FC01FD1BBB900C3E2BB /* UIImageUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageUtils.swift; sourceTree = "<group>"; };
+		EADF189D1FD2068D004ECA81 /* restAPImanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restAPImanager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,13 @@
 			children = (
 				EAA872D71FBA0E6A00493B6D /* AppDelegate.swift */,
 				EAA872D91FBA0E6A00493B6D /* ViewController.swift */,
+				EAA873081FBB62E600493B6D /* cascadeUiView.swift */,
+				EA74FDBE1FD19B7D004494D6 /* flickrApi.swift */,
+				EADF189D1FD2068D004ECA81 /* restAPImanager.swift */,
+				EABA6FC01FD1BBB900C3E2BB /* UIImageUtils.swift */,
+				EA48005A1FC2DFDC00DD8AA7 /* cascadeImage.swift */,
 				EAA872DB1FBA0E6A00493B6D /* Main.storyboard */,
+				EA2E62C11FCDADD3007365B4 /* cascadeImageViewController.swift */,
 				EAA872E11FBA0E6A00493B6D /* Assets.xcassets */,
 				EAA872E31FBA0E6A00493B6D /* LaunchScreen.storyboard */,
 				EAA872E61FBA0E6A00493B6D /* Info.plist */,
@@ -265,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA2E62C21FCDADD3007365B4 /* cascadeImageViewController.swift in Sources */,
+				EA48005B1FC2DFDC00DD8AA7 /* cascadeImage.swift in Sources */,
+				EA74FDBF1FD19B7D004494D6 /* flickrApi.swift in Sources */,
 				EAA872E01FBA0E6A00493B6D /* Cascade2.xcdatamodeld in Sources */,
 				EAA872DA1FBA0E6A00493B6D /* ViewController.swift in Sources */,
 				EAA872D81FBA0E6A00493B6D /* AppDelegate.swift in Sources */,
+				EAA873091FBB62E600493B6D /* cascadeUiView.swift in Sources */,
+				EADF189E1FD2068D004ECA81 /* restAPImanager.swift in Sources */,
+				EABA6FC11FD1BBB900C3E2BB /* UIImageUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +540,7 @@
 				EAA873011FBA0E6B00493B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAA873021FBA0E6B00493B6D /* Build configuration list for PBXNativeTarget "Cascade2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				EAA873041FBA0E6B00493B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAA873051FBA0E6B00493B6D /* Build configuration list for PBXNativeTarget "Cascade2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				EAA873071FBA0E6B00493B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
