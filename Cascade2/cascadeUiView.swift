@@ -40,7 +40,7 @@ import UIKit
     
     var scrollView:UIScrollView?
     
-private var notification: NSObjectProtocol?
+    private var notification: NSObjectProtocol?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -160,7 +160,7 @@ private var notification: NSObjectProtocol?
     func currentOrentation() -> orentation
     {
         var ret: orentation = orentation.undefined
-        
+      
         if UIDeviceOrientationIsLandscape(UIDevice.current.orientation) {
             ret = orentation.landscape
         }
@@ -177,12 +177,9 @@ private var notification: NSObjectProtocol?
         var n = 0
         
         switch currentOrentation() {
-        case orentation.portrait:
-                n = mFramePortraitImgs
-        case orentation.landscape:
-            n = mFrameLandscapeImgs
-        default:
-            n = 1
+          case orentation.portrait:   n = mFramePortraitImgs
+          case orentation.landscape:  n = mFrameLandscapeImgs
+          default:  n = 1
         }
         
         return n
@@ -199,7 +196,8 @@ private var notification: NSObjectProtocol?
                 print ("orentation change: from ",origOrentation," to ", currOrentation)
                 show(numPerRow: numPerRow(), duration: showDuration, delay: showDelay)
             }
-        }
+        } else
+        { print ("orentation undefined")}
     }
 
     func refresh(sender:AnyObject) {
