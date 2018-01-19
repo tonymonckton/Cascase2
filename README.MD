@@ -9,7 +9,7 @@ Cascade subclasses UIView, it can display portrait and landscape images on the s
 
 # Video
 
-![alt text](http://www.tonymonckton.co.uk/github/cascade2.gif)
+![Cascade](http://www.tonymonckton.co.uk/github/cascade.png)
 
 ### Gestures
 Cascade has the following gestures
