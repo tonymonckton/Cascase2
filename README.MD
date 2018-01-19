@@ -7,7 +7,7 @@ Cascade subclasses UIView, it can display portrait and landscape images on the s
   - Landscape and portrait orientation
   - Responsive design
 
-# Video
+### Display
 
 ![Cascade](http://www.tonymonckton.co.uk/github/cascade2.1.png)
 
@@ -18,7 +18,7 @@ Cascade has the following gestures
 * Pinch-out gesture, increases number of images on each row
 
 
-# New Features coming soon..
+### New Features coming soon..
 
   - Support for httpRequest coming soon
   - add images 
